@@ -54,7 +54,8 @@ public class HomeScreen : TriggerAction
 		callIntent.addCategory(android.content.Intent.CATEGORY_HOME);
 		callIntent.setFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK);
 
-		android.app.Activity a = @(Activity.Package).@(Activity.Name).GetRootActivity();
+		//android.app.Activity a = @(Activity.Package).@(Activity.Name).GetRootActivity();
+		android.app.Activity a = com.fuse.Activity.getRootActivity();
 		a.startActivity(callIntent);
 	@}
 }
