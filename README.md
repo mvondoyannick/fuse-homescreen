@@ -1,7 +1,7 @@
 Fuse HomeScreen [![Build Status](https://travis-ci.org/bolav/fuse-homescreen.svg?branch=master)](https://travis-ci.org/bolav/fuse-homescreen) ![Fuse Version](http://fuse-version.herokuapp.com/?repo=https://github.com/bolav/fuse-homescreen)
 ===============
 
-Library to go to HomeScreen for [Fuse](http://www.fusetools.com/).
+Library to go to HomeScreen for [Fuse](https://www.fuseopen.com/).
 
 Status: beta
 
